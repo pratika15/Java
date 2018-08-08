@@ -16,12 +16,12 @@ public class App {
 
 		Person Person1 = new Person();
 		Person1.name = "pratika";
-		Person1.age = 23;
+		Person1.age = 22;
 		Person1.Speak();
 
 		Person Person2 = new Person();
 		Person2.name = "Bhanu";
-		Person2.age = 24;
+		Person2.age = 34;
 		Person2.Speak();
 		
 
