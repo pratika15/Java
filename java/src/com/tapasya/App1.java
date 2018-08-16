@@ -1,3 +1,4 @@
+package com.tapasya;
 import java.util.Scanner;
 
 public class App1 {

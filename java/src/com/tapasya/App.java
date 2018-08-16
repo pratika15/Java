@@ -1,3 +1,4 @@
+package com.tapasya;
 
 class Person {
 	String name;

@@ -1,4 +1,5 @@
-class frog {
+package com.tapasya;
+class Frog {
 	 private String name;
 	 private int age;
 	

@@ -1,3 +1,4 @@
+package com.tapasya;
 
 class Thing {
 	public String name;

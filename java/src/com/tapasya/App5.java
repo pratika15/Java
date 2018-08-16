@@ -1,3 +1,4 @@
+package com.tapasya;
 class Machine {
 	
 	private String name;
@@ -10,7 +11,7 @@ class Machine {
 	}
 	
 	public Machine(String name) {
-		System.out.println(" second constructor running");
+		System.out.println("second constructor running");
 		 this.name= name;
 	
 		
