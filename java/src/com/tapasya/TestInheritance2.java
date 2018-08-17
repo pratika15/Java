@@ -1,18 +1,18 @@
 package com.tapasya;
 
-class Animala {
+class Birds {
 	void eat() {
 		System.out.println("eating...");
 	}
 }
 
-class Doga extends Animal {
-	void bark() {
-		System.out.println("barking...");
+class Sparrow extends Birds {
+	void chrip() {
+		System.out.println("chipring...");
 	}
 }
 
-class BabyDog extends Dog {
+class Babysparrow extends Sparrow {
 	void weep() {
 		System.out.println("weeping...");
 	}
@@ -20,9 +20,9 @@ class BabyDog extends Dog {
 
 class TestInheritance2 {
 	public static void main(String args[]) {
-		BabyDog d = new BabyDog();
+		Babysparrow d = new Babysparrow();
 		d.weep();
-		d.bark();
+		d.chrip();
 		d.eat();
 		
 	}
